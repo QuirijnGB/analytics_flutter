@@ -4,7 +4,7 @@ version: 0.0.1
 homepage:
 
 environment:
-  sdk: '>=2.19.2 <3.0.0'
+  sdk: ">=2.19.2 <3.0.0"
   flutter: ">=1.17.0"
 
 dependencies:
@@ -13,11 +13,11 @@ dependencies:
   flutter:
     sdk: flutter
   json_annotation: ^4.8.0
-  analytics: 
-    git: 
-      url: https://github.com/segmentio/analytics_flutter
-      ref: main
-      path: packages/core 
+  analytics:
+    git:
+      url: https://github.com/QuirijnGB/analytics_flutter
+      ref: local
+      path: packages/core
 
 dev_dependencies:
   build_runner: ^2.3.3

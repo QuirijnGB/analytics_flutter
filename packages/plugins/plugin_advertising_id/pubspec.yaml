@@ -4,17 +4,17 @@ version: 0.0.1
 homepage:
 
 environment:
-  sdk: '>=2.19.3 <3.0.0'
+  sdk: ">=2.19.3 <3.0.0"
   flutter: ">=2.5.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  analytics: 
-    git: 
-      url: https://github.com/segmentio/analytics_flutter
-      ref: main
-      path: packages/core 
+  analytics:
+    git:
+      url: https://github.com/QuirijnGB/analytics_flutter
+      ref: local
+      path: packages/core
   plugin_platform_interface: ^2.0.2
 
 dev_dependencies:
