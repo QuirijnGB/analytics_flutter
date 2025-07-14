@@ -15,8 +15,9 @@ dependencies:
   flutter:
     sdk: flutter
   json_annotation: ^4.8.0
-  segment_analytics: ^1.1.1
-
+#  segment_analytics: ^1.1.1
+  segment_analytics:
+    path: ../../core
 dev_dependencies:
   build_runner: ^2.3.3
   flutter_test:

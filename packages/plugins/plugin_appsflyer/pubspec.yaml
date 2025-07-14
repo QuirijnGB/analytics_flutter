@@ -12,7 +12,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  segment_analytics: ^1.1.1
+#  segment_analytics: ^1.1.1
+  segment_analytics:
+    path: ../../core
   json_annotation: ^4.9.0
   appsflyer_sdk: ^6.15.2
 

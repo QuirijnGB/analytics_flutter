@@ -12,7 +12,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  segment_analytics: ^1.0.0
+  #  segment_analytics: ^1.0.0
+  segment_analytics:
+    path: ../../core
   plugin_platform_interface: ^2.0.2
 
 dev_dependencies:
