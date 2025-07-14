@@ -109,6 +109,11 @@ class AdjustDestination extends DestinationPlugin {
         }
       }
 
+      final userId = event.userId;
+      if (userId != null && userId.isNotEmpty) {
+        adjEvent.addCallbackParameter('userId', userId);
+      }
+
       Adjust.trackEvent(adjEvent);
     }
     return event;
